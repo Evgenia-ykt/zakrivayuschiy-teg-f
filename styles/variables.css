@@ -1,1 +1,31 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  /* Шрифты */
+
+  --font-family-main: "Inter-Variable", sans-serif;
+  --font-family-accent: "PressStart2P", fantasy;
+  --weight-font-accent: 400;
+  --weight-title-content-text: 715;
+  --weight-content-text: 410;
+  --title-size-header: clamp(49px, 43.37px + 1.5vw, 65px);
+  --dop-size-header: clamp(14px, 10.83px + 0.85vw, 23px);
+
+  /* Фон и заливки */
+  --backgr-image: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+
+  --backgr-color: #ffffff;
+  --border-color-logo: #ffffff;
+  --contour-color-heart: #000;
+  --animation-fill-color: #ff0000;
+
+  /* Отступы */
+  --padding-header: clamp(122px, 119.18px + 0.75vw, 130px);
+  /* Ширина */
+  --width-all: clamp(375px, 260.56px + 30.52vw, 700px);
+}
